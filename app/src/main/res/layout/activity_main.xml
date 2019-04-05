@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/first_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/second_text_view"
+        android:src="@drawable/shopresize" />
+    <TextView
+        android:id="@+id/first_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:text="ABC Sports"
+        android:textColor="#BF360C"
+        android:padding="16sp"
+        />
+    <TextView
+        android:id="@+id/second_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingLeft="16sp"
+        android:paddingRight="16sp"
+        android:layout_below="@id/first_text_view"
+        android:autoSizeTextType="uniform"
+        android:textColor="#01579B"
+        android:text="We have goods for every sports. Cricket, Football, Hockey, Archery, Golf, Swimming and all other indoor and outdoor games equipments and costumes are available here."
+        />
+    <TextView
+        android:id="@+id/fifth_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:paddingLeft="16dp"
+        android:layout_below="@id/first_image_view"
+        android:paddingTop="16dp"
+        android:autoSizeTextType="uniform"
+        android:textColor="#01579B"
+        android:text="Address: ABC Sports, Tyrwhitt Road, Hiramahal, Near MM College \nOperating Hours: 9:00AM-10:00PM \nPhone Number: +919898989898 \nEmail:abcsports@gmail.com"
+        />
+</RelativeLayout>
